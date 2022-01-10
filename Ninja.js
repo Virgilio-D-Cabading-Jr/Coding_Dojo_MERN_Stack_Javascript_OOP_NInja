@@ -31,6 +31,12 @@ class Ninja {
     }
 }
 
+class Sensei extends Ninja {
+    constructor (name) {
+        super (name);
+        
+    }
+}
 
 //  //// MAIN EXECUTABLE SECTION //////////////////
 
