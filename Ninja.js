@@ -43,7 +43,8 @@ class Sensei extends Ninja {
     //  **** Speak Wisdom Method ****************
     //  Calls drinkSake from the Ninja class before displaying a wise message
     speakWisdom() {
-
+        super.drinkSake();
+        console.log("What one programmer can do in one month, two programmers can do in two months.")
     }
 }
 
@@ -54,3 +55,10 @@ ninja1.sayName();
 ninja1.showStats();
 ninja1.drinkSake();
 ninja1.showStats();
+
+// example output
+const superSensei = new Sensei("Master Splinter");
+superSensei.speakWisdom();
+// -> "What one programmer can do in one month, two programmers can do in two months."
+superSensei.showStats();
+// -> "Name: Master Splinter, Health: 210, Speed: 10, Strength: 10"
