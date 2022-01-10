@@ -39,6 +39,12 @@ class Sensei extends Ninja {
         this.strength = 10;
         this.wisdom = 10;
     }
+
+    //  **** Speak Wisdom Method ****************
+    //  Calls drinkSake from the Ninja class before displaying a wise message
+    speakWisdom() {
+
+    }
 }
 
 //  //// MAIN EXECUTABLE SECTION //////////////////
